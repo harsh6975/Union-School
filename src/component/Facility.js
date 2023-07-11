@@ -24,7 +24,7 @@ function Facility() {
       <div className="content2">
         <section className="middle-section">
           <div className="box">
-            <h1>ACADEMIC</h1>
+            <h1>FACILITIES</h1>
             <img height="120" width="600" src={design} alt="design" />
             <div className="boxx">
               <h4>Campus & Infrastructure</h4>
