@@ -1,0 +1,87 @@
+.content4 {
+  max-width: 1400px;
+  /* margin: 80px 0; */
+}
+.middle-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 130px;
+}
+.middle-section .pic {
+  margin-top: 100px;
+  /* margin-right: 130px;s */
+}
+.middle-section .x {
+  margin-top: 260px;
+  /* margin-left: 210px; */
+}
+.middle-section .icon {
+  display: flex;
+  gap: 100px;
+  /* margin-bottom: 130px; */
+  margin-left: 50px;
+  text-align: center;
+  color: #003465;
+}
+.middle-section .icon h3 {
+  margin-top: 10px;
+}
+.middle-section .l {
+  margin-left: 40px;
+}
+.middle-section .pic1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.middle-section .pic2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.middle-section .pic3 {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.middle-section .pic4 {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.middle-section .box h1 {
+  padding: 0 200px;
+  font-size: 24pt;
+  font-weight: 600;
+  color: #003466;
+  margin-top: 90px;
+}
+.middle-section .box img {
+  /* padding-bottom: 20px; */
+  margin-top: -30px;
+}
+.middle-section .box h4 {
+  font-size: 12pt;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+}
+.middle-section .box .boxx {
+  width: 70;
+  min-height: 10vh;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  margin-left: 150px;
+}
+.middle-section .box .boxx h4 {
+  font-size: 12pt;
+  font-weight: 200;
+  /* color: black; */
+  color: rgba(0, 0, 0, 2);
+}

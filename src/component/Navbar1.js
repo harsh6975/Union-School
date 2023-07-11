@@ -28,7 +28,7 @@ function Navbar1() {
         />
         <ul class="l2">
           <a href="/admission">ADMISSION</a>
-          <a href="sd">GALLERY</a>
+          <a href="/gallery">GALLERY</a>
           <a href="sd">CONTACT</a>
         </ul>
       </nav>
