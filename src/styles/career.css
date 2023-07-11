@@ -1,0 +1,95 @@
+.align1 {
+  background-color: #003466;
+  height: 65vh;
+  background-image: url("../images/career.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  text-align: center;
+  color: #e6e6e6;
+  padding-top: 170px;
+  /* letter-spacing: 0.1em; */
+  /* line-height: 1em; */
+}
+.align1 p {
+  padding-top: 20px;
+  line-height: 1.5em;
+  font-size: 13pt;
+  font-weight: 500;
+}
+.btn {
+  margin-top: 27px;
+  padding: 18px 105px;
+  background-color: transparent;
+  border: 2px solid #e6e6e6;
+  color: #e6e6e6;
+  font-size: 13pt;
+}
+h6 {
+  margin-left: 689px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.content5 {
+  max-width: 1400px;
+}
+.middle-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 130px;
+}
+
+.middle-section .box h1 {
+  padding: 0 200px;
+  font-size: 24pt;
+  font-weight: 600;
+  color: #003466;
+  margin-top: 90px;
+}
+.middle-section .box img {
+  /* padding-bottom: 20px; */
+  margin-top: -30px;
+}
+.middle-section .box h4 {
+  font-size: 12pt;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+}
+.middle-section .box .boxx {
+  width: 70;
+  min-height: 10vh;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  margin-left: 150px;
+}
+.middle-section .box .boxx h4 {
+  font-size: 12pt;
+  font-weight: 200;
+  /* color: black; */
+  color: rgba(0, 0, 0, 2);
+}
+.middle-section .openbox {
+  margin-top: 100px;
+  /* margin-right: 130px;s */
+}
+
+.middle-section .toggle {
+  display: flex;
+  gap: 100px;
+  /* margin-bottom: 130px; */
+  margin-left: 50px;
+  text-align: center;
+  color: #003465;
+}
+.middle-section .toggle h3 {
+  margin-top: 10px;
+}
+.middle-section .grid {
+  height: 10vh;
+  background-color: #8fbd50;
+  border: 1px solid brown;
+}

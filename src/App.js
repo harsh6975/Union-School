@@ -5,6 +5,7 @@ import About from "./component/About";
 import Facility from "./component/Facility";
 import Academic from "./component/Academic";
 import Gallery from "./component/Gallery";
+import Career from "./component/Career";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/facilities" element={<Facility />} />
         <Route exact path="/academic" element={<Academic />} />
         <Route exact path="/gallery" element={<Gallery />} />
+        <Route exact path="/career" element={<Career />} />
       </Routes>
     </Router>
   );

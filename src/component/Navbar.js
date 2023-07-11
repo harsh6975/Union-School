@@ -21,6 +21,7 @@ function Navbar() {
         <a href="/admission">ADMISSION</a>
         <a href="/gallery">GALLERY</a>
         <a href="#asdf">CONTACT</a>
+        <a href="/career">CAREER</a>
       </div>
     </div>
   );
