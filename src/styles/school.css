@@ -1,0 +1,84 @@
+.our-school {
+  background-color: #4c9ecc;
+  min-height: 50vh;
+  text-align: center;
+}
+.our-school h2 {
+  padding-top: 50px;
+  /* margin-left: 680px; */
+  font-size: 20pt;
+  font-weight: 900;
+}
+.our-school p {
+  padding-top: 10px;
+  /* margin-left: 680px; */
+  font-size: 12pt;
+  font-weight: 200;
+}
+.our-school .icon {
+  /* margin-top: 70px; */
+  display: flex;
+  padding: 80px 260px;
+  justify-content: space-between;
+}
+.better {
+  background-color: #cccccc;
+  background-image: url("../images/mo.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  min-height: 100vh;
+  background-size: 50%;
+  background-position: bottom;
+}
+.better {
+  text-align: center;
+  padding-top: 100px;
+}
+.better h4 {
+  margin-bottom: 10px;
+  font-size: 15pt;
+}
+.better .tx {
+  font-size: 11pt;
+  letter-spacing: 2px;
+}
+.motiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.color {
+  /* min-height: 2vh; */
+
+  /* background-color: aqua; */
+  /* padding: 30px; */
+  width: 420px;
+  /* height: 420px; */
+}
+.color h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 13pt;
+}
+.color p {
+  margin-top: 2.5px;
+  font-size: 9pt;
+  font-weight: 500;
+}
+.color .b {
+  background-color: #00aeef;
+  padding: 19px;
+}
+.color .p {
+  background-color: #ab4a9c;
+  padding: 19px;
+}
+.color .g {
+  background-color: #b2d235;
+  padding: 19px;
+}
+.color .r {
+  background-color: #ed1164;
+  padding: 19px;
+}
