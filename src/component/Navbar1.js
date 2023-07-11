@@ -29,7 +29,7 @@ function Navbar1() {
         <ul class="l2">
           <a href="/admission">ADMISSION</a>
           <a href="/gallery">GALLERY</a>
-          <a href="sd">CONTACT</a>
+          <a href="/contact-us">CONTACT</a>
         </ul>
       </nav>
     </div>

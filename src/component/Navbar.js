@@ -20,7 +20,7 @@ function Navbar() {
         <a href="/facilities">FACILITIES</a>
         <a href="/admission">ADMISSION</a>
         <a href="/gallery">GALLERY</a>
-        <a href="#asdf">CONTACT</a>
+        <a href="/contact-us">CONTACT</a>
         <a href="/career">CAREER</a>
       </div>
     </div>
