@@ -15,7 +15,7 @@ function Navbar1() {
       </header>
       <nav>
         <ul class="l1">
-          <a href="sd">ABOUT</a>
+          <a href="/about-us">ABOUT</a>
           <a href="sd">ACADEMIC</a>
           <a href="sd">FACILITIES</a>
         </ul>
