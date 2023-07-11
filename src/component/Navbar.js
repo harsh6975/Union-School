@@ -17,7 +17,7 @@ function Navbar() {
         <a href="#asad">HOME</a>
         <a href="/about-us">ABOUT</a>
         <a href="#asdf">ACADEMIC</a>
-        <a href="#asdfa">FACILITIES</a>
+        <a href="/facilities">FACILITIES</a>
         <a href="/admission">ADMISSION</a>
         <a href="#asdf">GALLERY</a>
         <a href="#asdf">CONTACT</a>
