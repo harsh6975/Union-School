@@ -21,15 +21,10 @@ li {
 header li {
   font-size: 16px;
 }
-/* #header-main {
-  width: 100%;
-  min-height: 70px;
-  background-color: #2c5e77;
-} */
+
 #nav {
   width: 100%;
   min-height: 70px;
-  /* color: #ffffff; */
   float: right;
   line-height: 70px;
   background-color: #2c5e77;
@@ -46,21 +41,4 @@ header li {
 }
 #nav a:hover {
   text-decoration: underline;
-}
-
-.container .align {
-  /* background-color: #003466; */
-  height: 100vh;
-  /* background-image: url(images/hero3.png); */
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom;
-  text-align: center;
-  color: #e6e6e6;
-  padding-top: 170px;
-  /* letter-spacing: 0.1em; */
-  /* line-height: 1em; */
-}
-.h {
-  margin-top: 450px;
 }
