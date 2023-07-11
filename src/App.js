@@ -3,6 +3,7 @@ import Home from "./component/Home";
 import Admission from "./component/Admission";
 import About from "./component/About";
 import Facility from "./component/Facility";
+import Academic from "./component/Academic";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/admission" element={<Admission />} />
         <Route exact path="/about-us" element={<About />} />
         <Route exact path="/facilities" element={<Facility />} />
+        <Route exact path="/academic" element={<Academic />} />
       </Routes>
     </Router>
   );

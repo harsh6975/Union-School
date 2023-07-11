@@ -16,7 +16,7 @@ function Navbar() {
       <div id="nav">
         <a href="#asad">HOME</a>
         <a href="/about-us">ABOUT</a>
-        <a href="#asdf">ACADEMIC</a>
+        <a href="/academic">ACADEMIC</a>
         <a href="/facilities">FACILITIES</a>
         <a href="/admission">ADMISSION</a>
         <a href="#asdf">GALLERY</a>

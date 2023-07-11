@@ -16,7 +16,7 @@ function Navbar1() {
       <nav>
         <ul class="l1">
           <a href="/about-us">ABOUT</a>
-          <a href="sd">ACADEMIC</a>
+          <a href="/academic">ACADEMIC</a>
           <a href="/facilities">FACILITIES</a>
         </ul>
         <img
