@@ -1,0 +1,66 @@
+header {
+  background-color: #406c85;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header h1 {
+  color: #8fbd50;
+  font-size: 20px;
+  font-weight: 200;
+}
+header ul {
+  display: flex;
+  gap: 15px;
+  color: #dadada;
+}
+li {
+  list-style-type: none;
+}
+header li {
+  font-size: 16px;
+}
+/* #header-main {
+  width: 100%;
+  min-height: 70px;
+  background-color: #2c5e77;
+} */
+#nav {
+  width: 100%;
+  min-height: 70px;
+  /* color: #ffffff; */
+  float: right;
+  line-height: 70px;
+  background-color: #2c5e77;
+}
+#nav a {
+  display: inline-block;
+  width: 10%;
+  min-height: 70px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50px;
+  font-weight: 300;
+}
+#nav a:hover {
+  text-decoration: underline;
+}
+
+.container .align {
+  /* background-color: #003466; */
+  height: 100vh;
+  /* background-image: url(images/hero3.png); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  text-align: center;
+  color: #e6e6e6;
+  padding-top: 170px;
+  /* letter-spacing: 0.1em; */
+  /* line-height: 1em; */
+}
+.h {
+  margin-top: 450px;
+}
