@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/navbar.css";
+import styles from "../styles/navbar.module.css";
 import MiniNavbar from "./MiniNavbar";
 
 function Navbar() {
   return (
     <div>
       <MiniNavbar />
-      <div id="nav">
+      <div className={styles.nav}>
         <a href="/">HOME</a>
         <a href="/about-us">ABOUT</a>
         <a href="/academic">ACADEMIC</a>

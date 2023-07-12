@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/admission.css";
+import styles from "../styles/admission.module.css";
 import design from "../images/design.png";
 import admpic from "../images/admpic.png";
 
@@ -12,25 +12,25 @@ function Admission() {
     <>
       <Navbar1 />
       <Banner image={admpic} />
-      <div className="content">
-        <section className="middle-section">
-          <div className="box">
+      <div className={styles.content}>
+        <section className={styles.middlesection}>
+          <div className={styles.box}>
             <h1>ADMISSION</h1>
             <img height="120" width="600" src={design} alt="design" />
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>TRANSFER YEAR 6 TO YEAR 7</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>ECONDARY TRANSFER-HOW TO APPLY</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>IN YEAR ADMISSION</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>SIXTH FORM</h4>
             </div>
           </div>
-          <div className="text">
+          <div className={styles.text}>
             <p>
               We are glad to inform you that we have started accepting
               applications for the next academic year. Admission is open to all
@@ -55,7 +55,7 @@ function Admission() {
                 at the school campus.
               </li>
             </ul>
-            <p className="space">
+            <p className={styles.space}>
               <b>Requirements:</b> A copy of the Birth Certificate from the
               Registrar of Births will be required at the time of admission to
               LKG/UKG and className 4. Pupils coming from other schools will

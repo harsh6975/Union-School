@@ -1,21 +1,21 @@
-.our-school {
+.ourschool {
   background-color: #4c9ecc;
   min-height: 50vh;
   text-align: center;
 }
-.our-school h2 {
+.ourschool h2 {
   padding-top: 50px;
   /* margin-left: 680px; */
   font-size: 20pt;
   font-weight: 900;
 }
-.our-school p {
+.ourschool p {
   padding-top: 10px;
   /* margin-left: 680px; */
   font-size: 12pt;
   font-weight: 200;
 }
-.our-school .icon {
+.ourschool .icon {
   /* margin-top: 70px; */
   display: flex;
   padding: 80px 260px;

@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar1 from "./Navbar1";
 import design from "../images/design.png";
-import "../styles/contact.css";
+import styles from "../styles/contact.module.css";
 import contact from "../images/contact.png";
 import Banner from "./Banner";
 
@@ -11,12 +11,12 @@ function Contact() {
     <div>
       <Navbar1 />
       <Banner image={contact} />
-      <div class="content6">
-        <section class="middle-section">
-          <div class="box">
+      <div className={styles.content6}>
+        <section className={styles.middlesection}>
+          <div className={styles.box}>
             <h1>CONTACT US</h1>
             <img height="120" width="600" src={design} alt="design" />
-            <div class="boxx">
+            <div className={styles.boxx}>
               <h4>
                 Union School Newtown <br />
                 Bhagowanpur , Newtown ( Hatishala ) <br />
@@ -26,19 +26,19 @@ function Contact() {
               </h4>
             </div>
 
-            <div class="boxx1">
+            <div className={styles.boxx1}>
               <h4>CAMPUS MAP</h4>
               <img src="images/MAPLOGO.png" alt="" />
             </div>
-            <img class="I" src="images/map.png" alt="" />
+            <img className={styles.I} src="images/map.png" alt="" />
           </div>
-          <div class="boxcontainer">
-            <div class="box1">
+          <div className={styles.boxcontainer}>
+            <div className={styles.box1}>
               <h1>CONTACT FORM</h1>
             </div>
             <form action="">
-              <div class="formcontainer">
-                <div class="formcontrol">
+              <div className={styles.formcontainer}>
+                <div className={styles.formcontrol}>
                   <label for="first-name">First Name</label>
                   <input
                     id="first-name"
@@ -48,7 +48,7 @@ function Contact() {
                   />
                 </div>
 
-                <div class="formcontrol">
+                <div className={styles.formcontrol}>
                   <label for="last-name">Last Name</label>
                   <input
                     id="last-name"
@@ -58,17 +58,17 @@ function Contact() {
                   />
                 </div>
 
-                <div class="formcontrol">
+                <div className={styles.formcontrol}>
                   <label for="email">Email Addrss*</label>
                   <input type="email" id="email" name="email" />
                 </div>
 
-                <div class="formcontrol">
+                <div className={styles.formcontrol}>
                   <label for="phone-no">Phone Number*</label>
                   <input type="number" id="phone-no" name="phone-no" />
                 </div>
 
-                <div class="control">
+                <div className={styles.control}>
                   <label for="comment">Questions / Comments</label>
                   <textarea
                     name="comment"
@@ -78,7 +78,7 @@ function Contact() {
                   ></textarea>
                 </div>
               </div>
-              <div class="button_container">
+              <div className={styles.button_container}>
                 <button type="submit">Apply Now</button>
               </div>
             </form>

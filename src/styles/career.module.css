@@ -34,7 +34,7 @@ h6 {
 .content5 {
   max-width: 1400px;
 }
-.middle-section {
+.middlesection {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
@@ -42,23 +42,23 @@ h6 {
   gap: 130px;
 }
 
-.middle-section .box h1 {
+.middlesection .box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middle-section .box img {
+.middlesection .box img {
   /* padding-bottom: 20px; */
   margin-top: -30px;
 }
-.middle-section .box h4 {
+.middlesection .box h4 {
   font-size: 12pt;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
 }
-.middle-section .box .boxx {
+.middlesection .box .boxx {
   width: 70;
   min-height: 10vh;
   margin-bottom: 10px;
@@ -66,18 +66,18 @@ h6 {
   padding: 50px;
   margin-left: 150px;
 }
-.middle-section .box .boxx h4 {
+.middlesection .box .boxx h4 {
   font-size: 12pt;
   font-weight: 200;
   /* color: black; */
   color: rgba(0, 0, 0, 2);
 }
-.middle-section .openbox {
+.middlesection .openbox {
   margin-top: 100px;
   /* margin-right: 130px;s */
 }
 
-.middle-section .toggle {
+.middlesection .toggle {
   display: flex;
   gap: 100px;
   /* margin-bottom: 130px; */
@@ -85,10 +85,10 @@ h6 {
   text-align: center;
   color: #003465;
 }
-.middle-section .toggle h3 {
+.middlesection .toggle h3 {
   margin-top: 10px;
 }
-.middle-section .grid {
+.middlesection .grid {
   height: 10vh;
   background-color: #8fbd50;
   border: 1px solid brown;

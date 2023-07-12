@@ -2,22 +2,22 @@
   max-width: 1400px;
   /* margin: 80px 0; */
 }
-.middle-section {
+.middlesection {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 130px;
 }
-.middle-section .pic {
+.middlesection .pic {
   margin-top: 100px;
   /* margin-right: 130px;s */
 }
-.middle-section .x {
+.middlesection .x {
   margin-top: 260px;
   /* margin-left: 210px; */
 }
-.middle-section .icon {
+.middlesection .icon {
   display: flex;
   gap: 100px;
   /* margin-bottom: 130px; */
@@ -25,53 +25,53 @@
   text-align: center;
   color: #003465;
 }
-.middle-section .icon h3 {
+.middlesection .icon h3 {
   margin-top: 10px;
 }
-.middle-section .l {
+.middlesection .l {
   margin-left: 40px;
 }
-.middle-section .pic1 {
+.middlesection .pic1 {
   display: flex;
   gap: 30px;
   margin-top: 30px;
   margin-right: 5px;
 }
-.middle-section .pic2 {
+.middlesection .pic2 {
   display: flex;
   gap: 30px;
   margin-top: 30px;
   margin-right: 5px;
 }
-.middle-section .pic3 {
+.middlesection .pic3 {
   display: flex;
   gap: 30px;
   margin-top: 30px;
   margin-right: 5px;
 }
-.middle-section .pic4 {
+.middlesection .pic4 {
   display: flex;
   gap: 30px;
   margin-top: 30px;
   margin-right: 5px;
 }
-.middle-section .box h1 {
+.middlesection .box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middle-section .box img {
+.middlesection .box img {
   /* padding-bottom: 20px; */
   margin-top: -30px;
 }
-.middle-section .box h4 {
+.middlesection .box h4 {
   font-size: 12pt;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
 }
-.middle-section .box .boxx {
+.middlesection .box .boxx {
   width: 70;
   min-height: 10vh;
   margin-bottom: 10px;
@@ -79,7 +79,7 @@
   padding: 50px;
   margin-left: 150px;
 }
-.middle-section .box .boxx h4 {
+.middlesection .box .boxx h4 {
   font-size: 12pt;
   font-weight: 200;
   /* color: black; */
