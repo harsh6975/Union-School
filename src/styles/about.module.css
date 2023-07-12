@@ -1,20 +1,24 @@
-.content1 {
-  max-width: 1200px;
-  margin: 50px auto;
-}
-.middlesection {
+.aboutus {
   display: flex;
   justify-content: space-between;
+  width: 80%;
   margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.middlesection h2 {
+
+.textcontainer {
+  flex: 2;
+}
+
+.aboutus h2 {
   font-size: 24pt;
   font-weight: 550;
   color: #8fc14a;
   margin-bottom: 80px;
   /* text-align: start; */
 }
-.middlesection p {
+.aboutus p {
   font-size: 13pt;
   line-height: 24px;
   letter-spacing: 1px;
@@ -22,10 +26,10 @@
   padding-right: 150px;
   margin-bottom: 30px;
 }
-.middlesection ul {
+.aboutus ul {
   margin-left: 20px;
 }
-.middlesection li {
+.aboutus li {
   font-size: 13pt;
   line-height: 24px;
   letter-spacing: 1px;
@@ -33,10 +37,14 @@
   padding-right: 150px;
   margin-bottom: 10px;
 }
+.imagecontainer {
+  flex: 1;
+}
+
 .imagecontainer .i1 img {
   margin-top: 60px;
   width: 550px;
-  height: 400px;
+  height: 300px;
   margin-bottom: 20px;
 }
 .imagecontainer .box {

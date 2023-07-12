@@ -12,9 +12,8 @@ function About() {
     <>
       <Navbar1 />
       <Banner image={abo} />
-      <div className={styles.container1}>
-        <div className={styles.content1}>
-          <section className={styles.middlesection}>
+     
+          <div className={styles.aboutus}>
             <div className={styles.textcontainer}>
               <h2>ABOUT UNION</h2>
               <p>
@@ -56,9 +55,8 @@ function About() {
                 </h4>
               </div>
             </div>
-          </section>
-        </div>
-      </div>
+          </div>
+     
       <Footer />
     </>
   );
