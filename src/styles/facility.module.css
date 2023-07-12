@@ -4,26 +4,28 @@
   justify-content: space-between;
   align-items: start;
   gap: 170px;
-  /* background-color: #003466; */
 }
 
-.middlesection .box h1 {
+.box {
+  flex: 1;
+}
+
+.box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middlesection .box img {
-  /* padding-bottom: 20px; */
+.box img {
   margin-top: -30px;
 }
-.middlesection .box h4 {
+.box h4 {
   font-size: 12pt;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
 }
-.middlesection .box .boxx {
+.boxx {
   width: 70;
   min-height: 10vh;
   margin-bottom: 10px;
@@ -31,44 +33,24 @@
   padding: 50px;
   margin-left: 150px;
 }
-.middlesection .box .boxx h4 {
+.boxx h4 {
   font-size: 12pt;
   font-weight: 200;
   /* color: black; */
   color: rgba(0, 0, 0, 2);
 }
-.middlesection .text {
+.text {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-top: 210px;
   margin-right: 110px;
+  flex: 2;
 }
 h3 {
   margin-right: 30px;
 }
-/* .middlesection .text .info {
-    width: 650px;
-     min-height: -fit-content; /
-    background-color: #003466;
-    color: white;
-    font-weight: 600;
-    padding: 15px;
-    border-left: 40px solid #211f41;
-    margin-top: 20px;
-    margin-bottom: 40px;
-     line-height: 40; /
-     letter-spacing: 6.5px; /
-  }
-  .middlesection .text .info ul {
-    padding-top: 20px;
-  }
-  .middlesection .text .info ul li {
-     list-style-type: disc; /
-    letter-spacing: 1px;
-    line-height: 16px;
-    font-size: 16px;
-  } */
+
 .middlesection .text p {
   font-size: 14pt;
   line-height: 33px;
@@ -77,21 +59,7 @@ h3 {
   padding-right: 10px;
   margin-bottom: 40px;
 }
-/* .middlesection .text ul {
-    margin-left: 20px;
-    margin-bottom: 30px;
-  }
-  .middlesection .text ul li {
-    margin-bottom: 15px;
-    list-style-type: disc;
-    font-size: 13pt;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    padding-right: 20px;
-  }
-  .middlesection .text .space {
-    margin-top: 30px;
-  } */
+
 .middlsection {
   display: flex;
   justify-content: space-between;
@@ -124,22 +92,15 @@ h3 {
   text-align-last: unset;
   padding-right: 120px;
   margin-bottom: 30px;
+  flex: 2;
+  text-align: justify;
 }
-.imagcontainer .i1 img {
-  margin-top: 80px;
+
+.i1 {
+  flex: 1;
+}
+
+.i1 img {
   width: 470px;
   height: 300px;
-  margin-bottom: 20px;
-}
-.imagcontainer .i3 img {
-  margin-top: 120px;
-  width: 470px;
-  height: 400px;
-  margin-bottom: 20px;
-}
-.imagcontainer .i4 img {
-  margin-top: 170px;
-  width: 460px;
-  height: 350px;
-  margin-bottom: 10px;
 }
