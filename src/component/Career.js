@@ -17,35 +17,33 @@ function Career() {
         </p>
         <button className={styles.btn}>JOIN US</button>
       </div>
-      <div className={styles.content5}>
-        <section className={styles.middlesection}>
-          <div className={styles.box}>
-            <h1>CAREER</h1>
-            <img height="120" width="600" src={design} alt="design" />
-            <div className={styles.boxx}>
-              <h4>JOBS</h4>
+      <div className={styles.middlesection}>
+        <div className={styles.box}>
+          <h1>CAREER</h1>
+          <img height="120" width="600" src={design} alt="design" />
+          <div className={styles.boxx}>
+            <h4>JOBS</h4>
+          </div>
+          <div className={styles.boxx}>
+            <h4>APPLY ONLINE</h4>
+          </div>
+        </div>
+        <div className={styles.openbox}>
+          <div className={styles.toggle}>
+            <div className={styles.a}>
+              <h3>TEACHING STAFF</h3>
             </div>
-            <div className={styles.boxx}>
-              <h4>APPLY ONLINE</h4>
+            <div className={styles.b}>
+              <h3>ADMIN STAFF</h3>
             </div>
           </div>
-          <div className={styles.openbox}>
-            <div className={styles.toggle}>
-              <div className={styles.a}>
-                <h3>TEACHING STAFF</h3>
-              </div>
-              <div className={styles.b}>
-                <h3>ADMIN STAFF</h3>
-              </div>
-            </div>
-            <img className={styles.l} src="images/l3.png" alt="" />
-            <div className={styles.grid}>
-              <div className={styles.g}></div>
-              <div className={styles.g}></div>
-              <div className={styles.g}></div>
-            </div>
+          <img className={styles.l} src="images/l3.png" alt="" />
+          <div className={styles.grid}>
+            <div className={styles.g}></div>
+            <div className={styles.g}></div>
+            <div className={styles.g}></div>
           </div>
-        </section>
+        </div>
       </div>
       <Footer />
     </div>

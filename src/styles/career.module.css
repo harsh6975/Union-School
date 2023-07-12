@@ -31,9 +31,7 @@ h6 {
   font-weight: 400;
   font-size: 12px;
 }
-.content5 {
-  max-width: 1400px;
-}
+
 .middlesection {
   margin-top: 100px;
   display: flex;
@@ -42,23 +40,27 @@ h6 {
   gap: 130px;
 }
 
-.middlesection .box h1 {
+.box {
+  flex: 1;
+}
+
+.box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middlesection .box img {
+.box img {
   /* padding-bottom: 20px; */
   margin-top: -30px;
 }
-.middlesection .box h4 {
+.box h4 {
   font-size: 12pt;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
 }
-.middlesection .box .boxx {
+.boxx {
   width: 70;
   min-height: 10vh;
   margin-bottom: 10px;
@@ -66,29 +68,28 @@ h6 {
   padding: 50px;
   margin-left: 150px;
 }
-.middlesection .box .boxx h4 {
+.boxx h4 {
   font-size: 12pt;
   font-weight: 200;
   /* color: black; */
   color: rgba(0, 0, 0, 2);
 }
-.middlesection .openbox {
+.openbox {
   margin-top: 100px;
-  /* margin-right: 130px;s */
+  flex: 2;
 }
 
-.middlesection .toggle {
+.toggle {
   display: flex;
   gap: 100px;
-  /* margin-bottom: 130px; */
   margin-left: 50px;
   text-align: center;
   color: #003465;
 }
-.middlesection .toggle h3 {
+.toggle h3 {
   margin-top: 10px;
 }
-.middlesection .grid {
+.grid {
   height: 10vh;
   background-color: #8fbd50;
   border: 1px solid brown;
