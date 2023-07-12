@@ -1,37 +1,4 @@
-.admpic {
-  background-color: #003466;
-  min-width: 100%;
-  text-align: center;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-header h1 {
-  color: #8fbd50;
-  font-size: 20px;
-  font-weight: 50;
-}
-header ul {
-  display: flex;
-  gap: 15px;
-  color: #dadada;
-}
-a {
-  list-style-type: none;
-} 
-header a {
-  font-size: 16px;
-}
-
-.content {
-  max-width: 100%;
-}
-.middlesection {
+.admission {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
@@ -39,22 +6,26 @@ header a {
   gap: 130px;
 }
 
-.middlesection .box h1 {
+.box {
+  flex: 1;
+}
+
+.box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middlesection .box img {
+.box img {
   margin-top: -30px;
 }
-.middlesection .box h4 {
+.box h4 {
   font-size: 12pt;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
 }
-.middlesection .box .boxx {
+.boxx {
   width: 70;
   min-height: 10vh;
   margin-bottom: 10px;
@@ -62,18 +33,19 @@ header a {
   padding: 50px;
   margin-left: 150px;
 }
-.middlesection .box .boxx h4 {
+.boxx h4 {
   font-size: 12pt;
   font-weight: 200;
   color: rgba(0, 0, 0, 2);
 }
-.middlesection .text {
+.text {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-top: 170px;
+  flex: 2;
 }
-.middlesection .text p {
+.text p {
   font-size: 13pt;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -81,10 +53,10 @@ header a {
   padding-right: 40px;
   margin-bottom: 40px;
 }
-.middlesection .text ul {
+.text ul {
   margin-left: 20px;
 }
-.middlesection .text ul li {
+.text ul li {
   margin-bottom: 10px;
   list-style-type: disc;
   font-size: 13pt;
@@ -92,6 +64,6 @@ header a {
   letter-spacing: 0.5px;
   padding-right: 40px;
 }
-.middlesection .text .space {
+.space {
   margin-top: 30px;
 }
