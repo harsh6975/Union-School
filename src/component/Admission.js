@@ -5,15 +5,14 @@ import admpic from "../images/admpic.png";
 
 import Navbar1 from "./Navbar1";
 import Footer from "./Footer";
+import Banner from "./Banner";
 
 function Admission() {
   return (
     <>
       <Navbar1 />
+      <Banner image={admpic} />
       <div className="content">
-        <div className="admpic">
-          <img src={admpic} alt="admpic" height={500}></img>
-        </div>
         <section className="middle-section">
           <div className="box">
             <h1>ADMISSION</h1>

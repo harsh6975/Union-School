@@ -11,14 +11,13 @@ import i2 from "../images/i2.png";
 import i3 from "../images/i3.png";
 import l3 from "../images/l3.png";
 import "../styles/gallery.css";
+import Banner from "./Banner";
 
 function Gallery() {
   return (
     <div>
       <Navbar1 />
-      <div className="admoic">
-        <img src={gallery} alt="gallery"></img>
-      </div>
+      <Banner image={gallery} />
       <div className="content4">
         <section className="middle-section">
           <div className="box">

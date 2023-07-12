@@ -3,13 +3,12 @@ import Footer from "./Footer";
 import Navbar1 from "./Navbar1";
 import design from "../images/design.png";
 import aca from "../images/aca.png";
+import Banner from "./Banner";
 function Academic() {
   return (
     <div>
       <Navbar1 />
-      <div className="admpic">
-        <img src={aca} alt="aca"></img>
-      </div>
+      <Banner image={aca} />
       <div class="content4">
         <section class="middle-section">
           <div class="box">

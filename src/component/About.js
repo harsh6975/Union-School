@@ -5,15 +5,14 @@ import "../styles/about.css";
 import abo from "../images/abo.png";
 import s1 from "../images/s1.png";
 import s2 from "../images/s2.png";
+import Banner from "./Banner";
 
 function About() {
   return (
     <>
       <Navbar1 />
+      <Banner image={abo} />
       <div className="container1">
-        <div className="admpic">
-          <img src={abo} alt="abo"></img>
-        </div>
         <div className="content1">
           <section className="middle-section">
             <div className="text-container">

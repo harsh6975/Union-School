@@ -3,11 +3,14 @@ import Footer from "./Footer";
 import Navbar1 from "./Navbar1";
 import design from "../images/design.png";
 import "../styles/contact.css";
+import contact from "../images/contact.png";
+import Banner from "./Banner";
 
 function Contact() {
   return (
     <div>
       <Navbar1 />
+      <Banner image={contact} />
       <div class="content6">
         <section class="middle-section">
           <div class="box">

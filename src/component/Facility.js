@@ -13,14 +13,13 @@ import f7 from "../images/f7.png";
 import f8 from "../images/f8.png";
 import f9 from "../images/f9.png";
 import faci from "../images/faci.png";
+import Banner from "./Banner";
 
 function Facility() {
   return (
     <>
       <Navbar1 />
-      <div className="admpic">
-        <img src={faci} alt="faci"></img>
-      </div>
+      <Banner image={faci} />
       <div className="content2">
         <section className="middle-section">
           <div className="box">
