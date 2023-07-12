@@ -1,0 +1,27 @@
+.navcontainer {
+  background-color: #003466;
+}
+
+.navbar1 {
+  min-height: 70px;
+  line-height: 70px;
+  background-color: #2c5e77;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar1 a {
+  display: inline-block;
+  min-height: 70px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+}
+.navbar1 a:hover {
+  text-decoration: underline;
+}
+
+.navbar1 a img {
+  margin-top: 20px;
+}

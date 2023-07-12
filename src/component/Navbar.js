@@ -1,18 +1,11 @@
 import React from "react";
 import "../styles/navbar.css";
+import MiniNavbar from "./MiniNavbar";
 
 function Navbar() {
   return (
     <div>
-      <header>
-        <h1>UNION SCHOOL NEWTOWN</h1>
-        <ul className="link-container">
-          <li>FB</li>
-          <li>TW</li>
-          <li>Insta</li>
-          <li>Search</li>
-        </ul>
-      </header>
+      <MiniNavbar />
       <div id="nav">
         <a href="/">HOME</a>
         <a href="/about-us">ABOUT</a>
