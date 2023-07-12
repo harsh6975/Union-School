@@ -9,22 +9,22 @@
   gap: 130px;
   margin-right: 80px;
 }
-.middlesection .box h1 {
+.box {
+  flex: 1;
+}
+
+.box h1 {
   padding: 0 200px;
   font-size: 24pt;
   font-weight: 600;
   color: #003466;
   margin-top: 90px;
 }
-.middlesection .box img {
+.box img {
   margin-top: -30px;
 }
-/* .middlesection .box h4 {
-    font-size: 12pt;
-    font-weight: 100;
-    color: rgba(0, 0, 0, 0.6);
-  } */
-.middlesection .box .boxx {
+
+.boxx {
   width: 120;
   min-height: 10vh;
   margin-bottom: 50px;
@@ -37,7 +37,7 @@
   line-height: 20px;
   letter-spacing: 0.8px;
 }
-.middlesection .box .boxx1 {
+.boxx1 {
   background-color: #003466;
   min-height: 10vh;
   width: 270px;
@@ -49,21 +49,21 @@
   display: flex;
   justify-content: space-around;
 }
-.middlesection .box .boxx h4 {
+.boxx h4 {
   font-size: 11pt;
   font-weight: 400;
   color: #e6e6e6;
 }
-.middlesection .box .boxx1 h4 {
+.boxx1 h4 {
   font-size: 12pt;
   /* font-weight: 400; */
   color: #e6e6e6;
   margin-top: 12px;
 }
-.middlesection .box .boxx1 img {
+.boxx1 img {
   margin-top: 2px;
 }
-.middlesection .box .I {
+.I {
   /* margin-right: 40px; */
   padding-left: 150px;
 }
@@ -71,6 +71,7 @@
 .boxcontainer {
   max-width: 900px;
   margin: 160px 0;
+  flex: 2;
   /* background-color: aqua; */
 }
 .box1 {
