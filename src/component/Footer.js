@@ -1,12 +1,15 @@
 import React from "react";
 import line from "../images/line.png";
-import "../styles/footer.css";
+import styles from "../styles/footer.module.css";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 function Footer() {
   return (
     <footer>
-      <div className="footer-upper">
-        <div className="footer-link-container">
-          <div className="footer-link">
+      <div className={styles.footerupper}>
+        <div className={styles.footerlinkcontainer}>
+          <div className={styles.footerlink}>
             <h2>CONNECT WITH US</h2>
             <ul>
               <li>Bhagowanpur , Newtown ( Hatishala ) Kol-700135 , W.B.</li>
@@ -15,7 +18,7 @@ function Footer() {
               <li>info@unionschool.org / unionschoolnt@gmail.com</li>
             </ul>
           </div>
-          <div className="footr-link">
+          <div className={styles.footrlink}>
             <h2>FEATURES</h2>
             <ul>
               <li>Experienced Faculty</li>
@@ -29,7 +32,7 @@ function Footer() {
               <li>Green & Ecofriendly Campus</li>
             </ul>
           </div>
-          <div className="footer-link">
+          <div className={styles.footerlink}>
             <h2>QUICK LINKS</h2>
             <ul>
               <li>OUR ADMISSION FORM</li>
@@ -40,24 +43,21 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="footer-icon-container">
+        <div className={styles.footericoncontainer}>
           <h3>Get connected with us on social networks!</h3>
-          <div className="facebook_icon">
-            <i className="fa-brands fa-facebook-f"></i>
+          <div className={styles.facebook_icon}>
+            <FacebookIcon />{" "}
           </div>
-          <div className="facebook_icon">
-            <i className="fa-brands fa-twitter"></i>
+          <div className={styles.facebook_icon}>
+            <InstagramIcon />{" "}
           </div>
-          <div className="facebook_icon">
-            <i className="fa-brands fa-linkedin-in"></i>
-          </div>
-          <div className="facebook_icon">
-            <i className="fa-brands fa-instagram"></i>
+          <div className={styles.facebook_icon}>
+            <TwitterIcon />
           </div>
         </div>
         <img width="1500" height="0.6" src={line} alt="line" />
       </div>
-      <div className="footer-lower">
+      <div className={styles.footerlower}>
         <p>
           © COPYRIGHT UNION SCHOOL NEWTOWN 2017. DESIGN & DEVELOPMENT BY UNION
           SCHOOL

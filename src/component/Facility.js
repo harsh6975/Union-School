@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar1 from "./Navbar1";
-import "../styles/facility.css";
+import styles from "../styles/facility.module.css";
 import design from "../images/design.png";
 import f1 from "../images/f1.png";
 import f2 from "../images/f3.png";
@@ -20,40 +20,40 @@ function Facility() {
     <>
       <Navbar1 />
       <Banner image={faci} />
-      <div className="content2">
-        <section className="middle-section">
-          <div className="box">
+      <div className={styles.content2}>
+        <section className={styles.middlesection}>
+          <div className={styles.box}>
             <h1>FACILITIES</h1>
             <img height="120" width="600" src={design} alt="design" />
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Campus & Infrastructure</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Library Resources</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Arts & creativity</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Laboratory</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Computer Lab & Digital className</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Hostel</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Transport</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Games</h4>
             </div>
-            <div className="boxx">
+            <div className={styles.boxx}>
               <h4>Joga & Meditation</h4>
             </div>
           </div>
-          <div className="text">
+          <div className={styles.text}>
             <p>
               Union School has numerous facilities which can be let out to
               external users and the community. In almost all cases, the
@@ -80,8 +80,8 @@ function Facility() {
               <br />
             </p>
 
-            <section className="middl-section">
-              <div className="text-container">
+            <section className={styles.middlsection}>
+              <div className={styles.textcontainer}>
                 <p>
                   <b>Activity Studio</b>
                   <br />
@@ -90,8 +90,8 @@ function Facility() {
                 </p>
               </div>
 
-              <div className="image-container">
-                <div className="i1">
+              <div className={styles.imagecontainer}>
+                <div className={styles.i1}>
                   <img src={f1} alt="pic" />
                 </div>
               </div>
@@ -112,14 +112,14 @@ function Facility() {
             </p>
           </div>
         </section>
-        <div className="flexpic">
+        <div className={styles.flexpic}>
           <img src={f2} alt="" />
           <img src={f3} alt="" />
           <img src={f4} alt="" />
           <img src={f5} alt="" />
         </div>
-        <section className="midd-section">
-          <div className="text-container">
+        <section className={styles.middsection}>
+          <div className={styles.textcontainer}>
             <p>
               <b>COMPUTER LAB CUM DIGITAL LARNING</b>
               <br />
@@ -185,17 +185,17 @@ function Facility() {
             </p>
           </div>
 
-          <div className="imag-container">
-            <div className="i1">
+          <div className={styles.imagcontainer}>
+            <div className={styles.i1}>
               <img src={f6} alt="pic" />
             </div>
-            <div className="i1">
+            <div className={styles.i1}>
               <img src={f7} alt="pic" />
             </div>
-            <div className="i3">
+            <div className={styles.i3}>
               <img src={f8} alt="pic" />
             </div>
-            <div className="i4">
+            <div className={styles.i4}>
               <img src={f9} alt="pic" />
             </div>
           </div>
