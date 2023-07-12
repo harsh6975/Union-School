@@ -1,0 +1,70 @@
+.academic {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 130px;
+}
+
+.box {
+  flex: 1;
+}
+
+.box h1 {
+  padding: 0 200px;
+  font-size: 24pt;
+  font-weight: 600;
+  color: #003466;
+  margin-top: 90px;
+}
+.box img {
+  margin-top: -30px;
+}
+.box h4 {
+  font-size: 12pt;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+}
+.boxx {
+  width: 70;
+  min-height: 10vh;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  margin-left: 150px;
+}
+.boxx h4 {
+  font-size: 12pt;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 2);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 170px;
+  flex: 2;
+}
+.text p {
+  font-size: 13pt;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+.text ul {
+  margin-left: 20px;
+}
+.text ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  font-size: 13pt;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding-right: 40px;
+}
+.space {
+  margin-top: 30px;
+}
