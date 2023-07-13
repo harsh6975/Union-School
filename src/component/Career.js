@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import styles from "../styles/career.module.css";
 import design from "../images/design.png";
+import Navbar from "./Navbar/Navbar";
 
 function Career() {
   return (
     <div>
-      <Navbar1 />
+      <Navbar />
       <div className={styles.align1}>
         <h1>So, You want to be part of us ?</h1>
         <p>

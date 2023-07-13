@@ -1,16 +1,16 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import styles from "../styles/about.module.css";
 import abo from "../images/abo.png";
 import s1 from "../images/s1.png";
 import s2 from "../images/s2.png";
 import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
 
 function About() {
   return (
     <>
-      <Navbar1 />
+      <Navbar />
       <Banner image={abo} />
      
           <div className={styles.aboutus}>

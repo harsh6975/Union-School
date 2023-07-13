@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import design from "../images/design.png";
 import aca from "../images/aca.png";
 import Banner from "./Banner";
 import styles from "../styles/academic.module.css";
+import Navbar from "./Navbar/Navbar";
 
 function Academic() {
   return (
     <div>
-      <Navbar1 />
+      <Navbar />
       <Banner image={aca} />
       <div className={styles.academic}>
         <div className={styles.box}>

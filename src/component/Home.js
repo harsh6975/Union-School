@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Stay from "./Stay";
 import School from "./School";
+import Navbar from "./Navbar/Navbar";
 
 function Home() {
   return (

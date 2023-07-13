@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import gallery from "../images/gallary.png";
 import design from "../images/design.png";
 import g1 from "../images/g1.png";
@@ -12,11 +11,12 @@ import i3 from "../images/i3.png";
 import l3 from "../images/l3.png";
 import styles from "../styles/gallery.module.css";
 import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
 
 function Gallery() {
   return (
     <div>
-      <Navbar1 />
+      <Navbar />
       <Banner image={gallery} />
       <div className={styles.content4}>
         <section className={styles.middlesection}>

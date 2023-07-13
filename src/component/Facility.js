@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import styles from "../styles/facility.module.css";
 import design from "../images/design.png";
 import f1 from "../images/f1.png";
@@ -14,11 +13,12 @@ import f8 from "../images/f8.png";
 import f9 from "../images/f9.png";
 import faci from "../images/faci.png";
 import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
 
 function Facility() {
   return (
     <>
-      <Navbar1 />
+      <Navbar />
       <Banner image={faci} />
       <section className={styles.middlesection}>
         <div className={styles.box}>

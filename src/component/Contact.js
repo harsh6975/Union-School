@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "./Footer";
-import Navbar1 from "./Navbar1";
 import design from "../images/design.png";
 import styles from "../styles/contact.module.css";
 import contact from "../images/contact.png";
 import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
 
 function Contact() {
   return (
     <div>
-      <Navbar1 />
+      <Navbar />
       <Banner image={contact} />
       <div className={styles.middlesection}>
         <div className={styles.box}>

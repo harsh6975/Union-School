@@ -2,15 +2,14 @@ import React from "react";
 import styles from "../styles/admission.module.css";
 import design from "../images/design.png";
 import admpic from "../images/admpic.png";
-
-import Navbar1 from "./Navbar1";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import Navbar from "./Navbar/Navbar";
 
 function Admission() {
   return (
     <>
-      <Navbar1 />
+      <Navbar />
       <Banner image={admpic} />
       <section className={styles.admission}>
         <div className={styles.box}>
