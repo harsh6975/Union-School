@@ -1,9 +1,12 @@
 import React from "react";
-import line from "../images/line.png";
 import styles from "../styles/footer.module.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import SchoolIcon from "@mui/icons-material/School";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import EmailIcon from "@mui/icons-material/Email";
 function Footer() {
   return (
     <footer>
@@ -12,13 +15,25 @@ function Footer() {
           <div className={styles.footerlink}>
             <h2>CONNECT WITH US</h2>
             <ul>
-              <li>Bhagowanpur , Newtown ( Hatishala ) Kol-700135 , W.B.</li>
-              <li>+91 77186- 11100</li>
-              <li>+91 6289942448</li>
-              <li>info@unionschool.org / unionschoolnt@gmail.com</li>
+              <li>
+                <SchoolIcon /> &nbsp; Bhagowanpur , Newtown ( Hatishala )
+                Kol-700135 , W.B.
+              </li>
+              <li>
+                <LocalPhoneIcon />
+                &nbsp; +91 77186- 11100
+              </li>
+              <li>
+                <PhoneInTalkIcon />
+                &nbsp; +91 6289942448
+              </li>
+              <li>
+                <EmailIcon />
+                &nbsp;info@unionschool.org / unionschoolnt@gmail.com
+              </li>
             </ul>
           </div>
-          <div className={styles.footrlink}>
+          <div className={styles.footerlink}>
             <h2>FEATURES</h2>
             <ul>
               <li>Experienced Faculty</li>
@@ -36,26 +51,19 @@ function Footer() {
             <h2>QUICK LINKS</h2>
             <ul>
               <li>OUR ADMISSION FORM</li>
-              <li>FAQs</li>
-              <li>OUR PROSPECTUS</li>
               <li>JOB APPLICATION FORM</li>
+              <li>OUR PROSPECTUS</li>
               <li>GALLERY</li>
+              <li>FAQs</li>
             </ul>
           </div>
         </div>
         <div className={styles.footericoncontainer}>
           <h3>Get connected with us on social networks!</h3>
-          <div className={styles.facebook_icon}>
-            <FacebookIcon />{" "}
-          </div>
-          <div className={styles.facebook_icon}>
-            <InstagramIcon />{" "}
-          </div>
-          <div className={styles.facebook_icon}>
-            <TwitterIcon />
+          <div>
+            <FacebookIcon /> <InstagramIcon /> <TwitterIcon />
           </div>
         </div>
-        <img width="1500" height="0.6" src={line} alt="line" />
       </div>
       <div className={styles.footerlower}>
         <p>
