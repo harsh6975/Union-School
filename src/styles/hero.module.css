@@ -1,14 +1,11 @@
-.align {
-  height: 95vh;
-  background-image: url("../images/hero3.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom;
-  text-align: center;
-  color: #e6e6e6;
-  padding-top: 170px;
+.container {
+  margin-top: 14vh;
+  height: 88vh;
 }
 
-.h {
-  margin-top: 450px;
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 8vh;
+
+  }
 }
