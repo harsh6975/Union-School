@@ -12,7 +12,6 @@ import {
   ListItemText,
   Toolbar,
   Typography,
-  Button,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import schoollogo from "../../images/skool-logo.png";
@@ -98,7 +97,6 @@ function Navbar() {
             transition: "background-color 0.3s, position 0.3s, box-shadow 0.3s",
           }}
         >
-          {/* <MiniNavbar /> */}
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               <img src={schoollogo} alt="logo" className={styles.logoImg} />
