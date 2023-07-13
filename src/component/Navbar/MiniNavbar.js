@@ -10,7 +10,7 @@ import WorkIcon from "@mui/icons-material/Work";
 function MiniNavbar() {
   return (
     <div className={styles.miniheader}>
-      <ul className="">
+      <ul>
         <Link href="tel:7718611100">
           <div className={styles.icons}>
             <WifiCalling3Icon />
@@ -30,7 +30,7 @@ function MiniNavbar() {
           </div>
         </Link>
       </ul>
-      <ul className="">
+      <ul>
         <Link href="/">
           <FacebookIcon sx={{ color: "white" }} />
         </Link>

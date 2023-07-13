@@ -19,6 +19,7 @@ import schoollogo from "../../images/skool-logo.png";
 import styles from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import MiniNavbar from "./MiniNavbar";
+
 const navItems = [
   { name: "HOME", href: "/" },
   { name: "ACADEMIC", href: "/academic" },
@@ -30,20 +31,40 @@ const navItems = [
 
 const drawerWidth = 240;
 
-function Navbar(props) {
-  const { window } = props;
+function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [isFixed, setIsFixed] = React.useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
 
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop =
+        (typeof window !== "undefined" &&
+          window !== "undefined" &&
+          window.pageYOffset) ||
+        document.documentElement.scrollTop;
+      setIsFixed(scrollTop > 0);
+    };
+
+    if (typeof window !== "undefined" && window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+    }
+    return () => {
+      if (typeof window !== "undefined" && window !== "undefined") {
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
+
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <List>
         {navItems.map((item, index) => (
-          <Link to={item.href}>
-            <ListItem key={index} disablePadding>
+          <Link to={item.href} key={index}>
+            <ListItem disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary={item.name} />
               </ListItemButton>
@@ -53,66 +74,72 @@ function Navbar(props) {
       </List>
     </Box>
   );
-
-  const container =
-    window !== undefined ? () => window().document.body : undefined;
+  console.log("window", window);
+  const container = undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <AppBar component="nav" sx={{ backgroundColor: "#406c85" }}>
-        <MiniNavbar />
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <img src={schoollogo} alt="logo" className={styles.logoImg}></img>
-          </Typography>
-          <Hidden mdUp>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              edge="end"
-              onClick={handleDrawerToggle}
-              sx={{ marginLeft: "auto" }}
-            >
-              <MenuIcon />
-            </IconButton>
-          </Hidden>
-          <Hidden mdDown>
-            {navItems.map((item, index) => {
-              return (
-                <Link to={item.href}>
-                  <Button key={index} sx={{ color: "#fff" }}>
-                    {item.name}
-                  </Button>
-                </Link>
-              );
-            })}
-          </Hidden>
-        </Toolbar>
-      </AppBar>
-      <Hidden mdUp>
-        <Drawer
-          container={container}
-          variant="temporary"
-          anchor="right"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true,
-          }}
+    <>
+      <MiniNavbar />
+      <Box sx={{ display: "flex" }}>
+        <CssBaseline />
+        <AppBar
+          component="nav"
           sx={{
-            display: { xs: "block", sm: "block", md: "none" },
-            "& .MuiDrawer-paper": {
-              boxSizing: "border-box",
-              width: drawerWidth,
-              right: 0,
-            },
+            backgroundColor: "#406c85",
+            position: isFixed ? "fixed" : "relative",
+            boxShadow: isFixed ? "0 4px 12px rgba(0,0,0,0.15)" : "none",
+            transition: "background-color 0.3s, position 0.3s, box-shadow 0.3s",
           }}
         >
-          {drawer}
-        </Drawer>
-      </Hidden>
-    </Box>
+          {/* <MiniNavbar /> */}
+          <Toolbar>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <img src={schoollogo} alt="logo" className={styles.logoImg} />
+            </Typography>
+            <Hidden mdUp>
+              <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                edge="end"
+                onClick={handleDrawerToggle}
+                sx={{ marginLeft: "auto" }}
+              >
+                <MenuIcon />
+              </IconButton>
+            </Hidden>
+            <Hidden mdDown>
+              {navItems.map((item, index) => (
+                <Link to={item.href} key={index}>
+                  <Button sx={{ color: "#fff" }}>{item.name}</Button>
+                </Link>
+              ))}
+            </Hidden>
+          </Toolbar>
+        </AppBar>
+        <Hidden mdUp>
+          <Drawer
+            container={container}
+            variant="temporary"
+            anchor="right"
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true,
+            }}
+            sx={{
+              display: { xs: "block", sm: "block", md: "none" },
+              "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: drawerWidth,
+                right: 0,
+              },
+            }}
+          >
+            {drawer}
+          </Drawer>
+        </Hidden>
+      </Box>
+    </>
   );
 }
 
