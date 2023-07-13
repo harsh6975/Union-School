@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .banner img {
-      height: 20vh;
-    }
+  .banner img {
+    height: 20vh;
   }
+}
