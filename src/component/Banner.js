@@ -1,16 +1,11 @@
 import React from "react";
+import styles from "../styles/banner.module.css";
 
 function Banner({ image }) {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${image})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "100% 100%",
-        minHeight: "60vh",
-        maxHeight: "auto",
-      }}
-    ></div>
+    <div className={styles.banner}>
+      <img src={image} alt="banner"></img>
+    </div>
   );
 }
 
