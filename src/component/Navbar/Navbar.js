@@ -17,7 +17,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import schoollogo from "../../images/skool-logo.png";
 import styles from "./navbar.module.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MiniNavbar from "./MiniNavbar";
 
 const navItems = [
@@ -34,6 +34,8 @@ const drawerWidth = 240;
 function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isFixed, setIsFixed] = React.useState(false);
+  const [activeItem, setActiveItem] = React.useState("");
+  const location = useLocation();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -58,6 +60,11 @@ function Navbar() {
       }
     };
   }, []);
+
+  React.useEffect(() => {
+    const path = location.pathname;
+    setActiveItem(path);
+  }, [location]);
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
@@ -109,8 +116,14 @@ function Navbar() {
             </Hidden>
             <Hidden mdDown>
               {navItems.map((item, index) => (
-                <Link to={item.href} key={index}>
-                  <Button sx={{ color: "#fff" }}>{item.name}</Button>
+                <Link
+                  to={item.href}
+                  key={index}
+                  className={
+                    item.href === activeItem ? styles.menuactive : styles.menu
+                  }
+                >
+                  {item.name}
                 </Link>
               ))}
             </Hidden>
