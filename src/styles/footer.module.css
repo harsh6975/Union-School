@@ -41,6 +41,7 @@
   margin-right: 10px;
   color: white;
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 .footericoncontainer h3 {
   font-size: 22px;
@@ -52,8 +53,10 @@
   background-color: #003466;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #999999;
   padding: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 950px) {
