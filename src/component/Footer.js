@@ -16,16 +16,16 @@ function Footer() {
             <h2>CONNECT WITH US</h2>
             <ul>
               <li>
-                <SchoolIcon /> &nbsp; Bhagowanpur , Newtown ( Hatishala )
+                <SchoolIcon /> &nbsp;Bhagowanpur , Newtown ( Hatishala )
                 Kol-700135 , W.B.
               </li>
               <li>
                 <LocalPhoneIcon />
-                &nbsp; +91 77186- 11100
+                &nbsp;+91 77186- 11100
               </li>
               <li>
                 <PhoneInTalkIcon />
-                &nbsp; +91 6289942448
+                &nbsp;+91 6289942448
               </li>
               <li>
                 <EmailIcon />
@@ -40,8 +40,8 @@ function Footer() {
               <li>Innovative Teaching Methods</li>
               <li>Creative Writing</li>
               <li>Toy Rooms For The Tiny Tots</li>
-              <li>Digital classNamees (Smart classNamees)</li>
-              <li>Remedial classNamees</li>
+              <li>Digital Classes (Smart Classes)</li>
+              <li>Remedial Classes</li>
               <li>Comfortable Carpoll System</li>
               <li>Yoga & Aerobics</li>
               <li>Green & Ecofriendly Campus</li>
