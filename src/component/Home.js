@@ -2,15 +2,15 @@ import React from "react";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Stay from "./Stay";
-import School from "./School";
 import Navbar from "./Navbar/Navbar";
+import Announcement from "./Announcement";
 
 function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <School />
+      <Announcement />
       <Stay />
       <Footer />
     </div>
