@@ -35,3 +35,9 @@
 .rightcard {
   background-color: #f2f4f3;
 }
+
+@media screen and (max-width: 900px) {
+  .box {
+    flex-direction: column;
+  }
+}
