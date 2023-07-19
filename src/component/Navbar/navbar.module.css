@@ -10,29 +10,31 @@
 }
 
 .menu {
-  color: white;
+  color: black;
   margin-left: 10px;
   margin-right: 10px;
+  font-weight: 700;
 }
 
 .menuactive,
 .menu:hover {
-  color: white;
+  color: black;
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: underline;
+  font-weight: 700;
 }
 
 .logoImg {
-  width: 4rem;
-  height: 4rem;
-  margin: 0.5rem 2rem;
+  width: 16rem;
+  height: 6rem;
+  margin: 0rem;
 }
 
 .miniheader {
-  background-color: #5b92b1;
+  background-color: #1b2e3c;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 10px 20px;
 }
@@ -45,6 +47,7 @@
   display: flex;
   gap: 15px;
   color: #dadada;
+  flex-wrap: wrap;
 }
 
 li {
@@ -62,10 +65,4 @@ li {
 
 a {
   text-decoration: none;
-}
-
-@media screen and (max-width: 768px) {
-  .miniheader ul {
-    flex-direction: column;
-  }
 }

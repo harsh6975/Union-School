@@ -14,7 +14,7 @@ import {
   Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import schoollogo from "../../images/skool-logo.png";
+import schoollogo from "../../images/logo.png";
 import styles from "./navbar.module.css";
 import { Link, useLocation } from "react-router-dom";
 import MiniNavbar from "./MiniNavbar";
@@ -91,7 +91,7 @@ function Navbar() {
         <AppBar
           component="nav"
           sx={{
-            backgroundColor: "#406c85",
+            backgroundColor: isFixed ? "white" : "transparent",
             position: isFixed ? "fixed" : "relative",
             boxShadow: isFixed ? "0 4px 12px rgba(0,0,0,0.15)" : "none",
             transition: "background-color 0.3s, position 0.3s, box-shadow 0.3s",
@@ -107,7 +107,7 @@ function Navbar() {
                 aria-label="open drawer"
                 edge="end"
                 onClick={handleDrawerToggle}
-                sx={{ marginLeft: "auto" }}
+                sx={{ marginLeft: "auto", color: "black" }}
               >
                 <MenuIcon />
               </IconButton>
