@@ -1,0 +1,13 @@
+.line1 {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+.line2 {
+  width: 150px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 10px;
+}
