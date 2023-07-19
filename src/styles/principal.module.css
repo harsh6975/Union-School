@@ -1,0 +1,52 @@
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.leftbox {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.leftbox h2 {
+  line-height: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: start;
+}
+
+.leftbox p {
+  color: black;
+  text-align: justify;
+}
+
+.rightbox {
+  text-align: center;
+  margin: 20px;
+}
+
+.rightbox img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .leftbox {
+    max-width: 500px;
+    text-align: justify;
+    margin: 20px;
+    flex: 1;
+  }
+  .rightbox {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .principal {
+    flex-direction: column;
+  }
+}
