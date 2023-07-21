@@ -1,5 +1,6 @@
 .footerupper {
-  background-color: #0057a7;
+  background-color: #151530;
+  overflow-y: hidden;
 }
 
 .footerlinkcontainer {
@@ -42,6 +43,7 @@
   color: white;
   letter-spacing: 0.2rem;
   text-align: center;
+  margin-top: -100px;
 }
 .footericoncontainer h3 {
   font-size: 22px;
@@ -50,7 +52,7 @@
 }
 
 .footerlower {
-  background-color: #003466;
+  background-color: #1b2e3c;
   display: flex;
   justify-content: center;
   align-items: center;

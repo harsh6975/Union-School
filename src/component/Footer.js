@@ -7,6 +7,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
+import SimpleMap from "./Map/Map";
 function Footer() {
   return (
     <footer>
@@ -30,6 +31,9 @@ function Footer() {
               <li>
                 <EmailIcon />
                 &nbsp;info@unionschool.org / unionschoolnt@gmail.com
+              </li>
+              <li>
+                <SimpleMap />
               </li>
             </ul>
           </div>
