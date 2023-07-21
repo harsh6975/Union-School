@@ -1,99 +1,67 @@
-.aboutus {
+.about {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.textcontainer {
-  flex: 2;
-}
-
-.aboutus h2 {
-  font-size: 24pt;
-  font-weight: 550;
-  color: #8fc14a;
-  margin-bottom: 80px;
-  /* text-align: start; */
-}
-.aboutus p {
-  font-size: 13pt;
-  line-height: 24px;
-  letter-spacing: 1px;
-  text-align: justify;
-  padding-right: 150px;
-  margin-bottom: 30px;
-}
-.aboutus ul {
-  margin-left: 20px;
-}
-.aboutus li {
-  font-size: 13pt;
-  line-height: 24px;
-  letter-spacing: 1px;
-  text-align: justify;
-  padding-right: 150px;
-  margin-bottom: 10px;
-}
-.imagecontainer {
+.leftContainer {
   flex: 1;
+  padding: 10px;
+  margin: 10px;
 }
 
-.i1 img {
-  margin-top: 60px;
-  width: 550px;
-  height: 300px;
-  margin-bottom: 20px;
-}
-.box {
-  width: 100;
-  min-height: 20vh;
-  border: 1.4px solid rgb(160, 159, 159);
-}
-.box img {
-  margin: 15px 10px;
-}
-.box h4 {
-  font-size: 17pt;
-  font-weight: 100;
-  color: #4d4d4d;
-  padding-left: 60px;
-  padding-right: 20px;
+.leftContainer img {
+  width: 500px;
+  border-radius: 10px;
 }
 
-@media screen and (max-width: 1500px) {
-  .i1 img {
-    height: 250px;
+.rightContainer {
+  flex: 2;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+
+.rightContainer h3 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.rightContainer h1 {
+  font-size: 70px;
+  margin-top: -35px;
+}
+
+.rightContainer p {
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 600;
+}
+
+.rightContainer button {
+  background-color: goldenrod;
+  padding: 10px;
+  float: right;
+  margin-top: 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+  .rightContainer {
+    flex: 1;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .textcontainer {
-    flex: 3;
+  .about {
+    flex-direction: column-reverse;
   }
-  .imagecontainer {
-    flex: 2;
-  }
-  .i1 img {
-    margin-top: 150px;
-  }
-}
 
-@media screen and (max-width: 800px) {
-  .aboutus {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .i1 img {
-    width: 80%;
-    margin-top: 20px;
-  }
-  .box {
-    width: 80%;
+  .rightContainer {
+    border-bottom: none;
   }
 }

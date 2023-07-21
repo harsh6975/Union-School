@@ -6,6 +6,7 @@ import Navbar from "./Navbar/Navbar";
 import Announcement from "./Announcement";
 import Principal from "./Principal";
 import Counter from "./Counter/Counter";
+import About from "./About";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Announcement />
+      <About />
       <Principal />
       <Counter />
       <Stay />

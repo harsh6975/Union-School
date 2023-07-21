@@ -1,64 +1,41 @@
 import React from "react";
-import Footer from "./Footer";
 import styles from "../styles/about.module.css";
-import abo from "../images/abo.png";
-import s1 from "../images/s1.png";
-import s2 from "../images/s2.png";
-import Banner from "./Banner";
-import Navbar from "./Navbar/Navbar";
+import about from "../images/about.jpeg";
+import Line from "./Line";
 
 function About() {
   return (
-    <>
-      <Navbar />
-      <Banner image={abo} />
-     
-          <div className={styles.aboutus}>
-            <div className={styles.textcontainer}>
-              <h2>ABOUT UNION</h2>
-              <p>
-                The School follows a curriculum, which is in accordance with the
-                specifications of the National Council of Educational Research &
-                Training (NCERT) and followed by the State Board. It aims at the
-                We are placed to introduce Union School Newtowattainment of the
-                highest order of academic excellence.
-              </p>
-              <ul>
-                <li>
-                  The purpose of lorem ipsum is to create a natural looking
-                  block of
-                </li>
-                <li>
-                  The purpose of lorem ipsum is to create a natural looking
-                  block
-                </li>
-                <li>
-                  The purpose of lorem ipsum is to create a natural looking
-                  block
-                </li>
-                <li>
-                  The purpose of lorem ipsum is to create a natural looking
-                  block
-                </li>
-              </ul>
-            </div>
-            <div className={styles.imagecontainer}>
-              <div className={styles.i1}>
-                <img src={s1} alt="pic" />
-              </div>
-
-              <div className={styles.box}>
-                <img src={s2} alt="icon" />
-                <h4>
-                  This is the way education should be . A lot of places talk
-                  about it
-                </h4>
-              </div>
-            </div>
-          </div>
-     
-      <Footer />
-    </>
+    <div className={styles.about}>
+      <div className={styles.leftContainer}>
+        <img src={about} alt="about"></img>
+      </div>
+      <div className={styles.rightContainer}>
+        <h3>About</h3>
+        <h1>School</h1>
+        <Line />
+        <p>
+          Union School, New Town (USN) is the place where young minds blossom,
+          and dreams take flight. Our mission is to provide a holistic education
+          that empowers students to excel academically, emotionally, and
+          socially. With experienced and caring faculty, state-of-the-art
+          facilities, and an innovative curriculum, we strive to foster a love
+          for learning and encourage creativity and critical thinking.
+          <br />
+          <br />
+          At USN, we believe that education extends beyond the classroom, and we
+          offer a diverse range of extracurricular activities to help students
+          explore their passions and interests. We value parental involvement
+          and aim to create a safe, inclusive environment where everyone feels
+          welcomed and valued.
+          <br />
+          <br />
+          Join our community, and together, let's build a bright future for your
+          child. Enroll at USN and watch them soar to new heights of success and
+          achievement.
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
   );
 }
 
