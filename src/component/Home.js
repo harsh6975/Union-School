@@ -5,6 +5,7 @@ import Stay from "./Stay";
 import Navbar from "./Navbar/Navbar";
 import Announcement from "./Announcement";
 import Principal from "./Principal";
+import Counter from "./Counter/Counter";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Hero />
       <Announcement />
       <Principal />
+      <Counter />
       <Stay />
       <Footer />
     </div>
