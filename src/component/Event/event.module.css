@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.leftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+}
+
+.leftContainer h3 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.leftContainer h1 {
+  font-size: 70px;
+  margin-top: -35px;
+}
+
+.rightContainer {
+  flex: 4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+}
+
+.event1 {
+  background-image: url("../../images/event1.jpeg");
+}
+
+.event2 {
+  background-image: url("../../images/event2.jpeg");
+}
+.event3 {
+  background-image: url("../../images/event3.jpeg");
+}
+
+.event4 {
+  background-image: url("../../images/event4.jpeg");
+  width: 400px;
+  height: 500px;
+}
+
+.event1,
+.event2,
+.event3,
+.event4 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.event1,
+.event2,
+.event3 {
+  width: 400px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1250px) {
+  .event1,
+  .event2,
+  .event3,
+  .event4 {
+    width: 350px;
+  }
+
+  .rightContainer {
+    flex: 3;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .event1,
+  .event2,
+  .event3,
+  .event4 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .event1,
+  .event2,
+  .event3 {
+    width: 250px;
+    height: 150px;
+  }
+  .event4 {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .event1,
+  .event2,
+  .event3 {
+    width: 200px;
+    height: 120px;
+  }
+  .event4 {
+    width: 200px;
+    height: 300px;
+  }
+}

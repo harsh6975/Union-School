@@ -6,6 +6,7 @@ import Announcement from "./Announcement";
 import Principal from "./Principal";
 import Counter from "./Counter/Counter";
 import About from "./About";
+import Event from "./Event/Event";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Hero />
       <Announcement />
       <About />
+      <Event />
       <Principal />
       <Counter />
       <Footer />
